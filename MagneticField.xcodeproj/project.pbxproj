@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93C25721F919C3D0003D73D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C25711F919C3D0003D73D /* AppDelegate.swift */; };
+		A93C25741F919C3D0003D73D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C25731F919C3D0003D73D /* ViewController.swift */; };
+		A93C25771F919C3D0003D73D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93C25751F919C3D0003D73D /* Main.storyboard */; };
+		A93C257A1F919C3D0003D73D /* MagneticField.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93C25781F919C3D0003D73D /* MagneticField.xcdatamodeld */; };
+		A93C257C1F919C3D0003D73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93C257B1F919C3D0003D73D /* Assets.xcassets */; };
+		A93C257F1F919C3D0003D73D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93C257D1F919C3D0003D73D /* LaunchScreen.storyboard */; };
+		A93C258A1F919C3D0003D73D /* MagneticFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C25891F919C3D0003D73D /* MagneticFieldTests.swift */; };
+		A93C25951F919C3D0003D73D /* MagneticFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C25941F919C3D0003D73D /* MagneticFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93C25861F919C3D0003D73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93C25661F919C3C0003D73D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93C256D1F919C3C0003D73D;
+			remoteInfo = MagneticField;
+		};
+		A93C25911F919C3D0003D73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93C25661F919C3C0003D73D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93C256D1F919C3C0003D73D;
+			remoteInfo = MagneticField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93C256E1F919C3C0003D73D /* MagneticField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93C25711F919C3D0003D73D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A93C25731F919C3D0003D73D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A93C25761F919C3D0003D73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93C25791F919C3D0003D73D /* MagneticField.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagneticField.xcdatamodel; sourceTree = "<group>"; };
+		A93C257B1F919C3D0003D73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93C257E1F919C3D0003D73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93C25801F919C3D0003D73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93C25851F919C3D0003D73D /* MagneticFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagneticFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93C25891F919C3D0003D73D /* MagneticFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticFieldTests.swift; sourceTree = "<group>"; };
+		A93C258B1F919C3D0003D73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93C25901F919C3D0003D73D /* MagneticFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagneticFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93C25941F919C3D0003D73D /* MagneticFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticFieldUITests.swift; sourceTree = "<group>"; };
+		A93C25961F919C3D0003D73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93C256B1F919C3C0003D73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C25821F919C3D0003D73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C258D1F919C3D0003D73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93C25651F919C3C0003D73D = {
+			isa = PBXGroup;
+			children = (
+				A93C25701F919C3C0003D73D /* MagneticField */,
+				A93C25881F919C3D0003D73D /* MagneticFieldTests */,
+				A93C25931F919C3D0003D73D /* MagneticFieldUITests */,
+				A93C256F1F919C3C0003D73D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93C256F1F919C3C0003D73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93C256E1F919C3C0003D73D /* MagneticField.app */,
+				A93C25851F919C3D0003D73D /* MagneticFieldTests.xctest */,
+				A93C25901F919C3D0003D73D /* MagneticFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93C25701F919C3C0003D73D /* MagneticField */ = {
+			isa = PBXGroup;
+			children = (
+				A93C25711F919C3D0003D73D /* AppDelegate.swift */,
+				A93C25731F919C3D0003D73D /* ViewController.swift */,
+				A93C25751F919C3D0003D73D /* Main.storyboard */,
+				A93C257B1F919C3D0003D73D /* Assets.xcassets */,
+				A93C257D1F919C3D0003D73D /* LaunchScreen.storyboard */,
+				A93C25801F919C3D0003D73D /* Info.plist */,
+				A93C25781F919C3D0003D73D /* MagneticField.xcdatamodeld */,
+			);
+			path = MagneticField;
+			sourceTree = "<group>";
+		};
+		A93C25881F919C3D0003D73D /* MagneticFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93C25891F919C3D0003D73D /* MagneticFieldTests.swift */,
+				A93C258B1F919C3D0003D73D /* Info.plist */,
+			);
+			path = MagneticFieldTests;
+			sourceTree = "<group>";
+		};
+		A93C25931F919C3D0003D73D /* MagneticFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A93C25941F919C3D0003D73D /* MagneticFieldUITests.swift */,
+				A93C25961F919C3D0003D73D /* Info.plist */,
+			);
+			path = MagneticFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93C256D1F919C3C0003D73D /* MagneticField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93C25991F919C3D0003D73D /* Build configuration list for PBXNativeTarget "MagneticField" */;
+			buildPhases = (
+				A93C256A1F919C3C0003D73D /* Sources */,
+				A93C256B1F919C3C0003D73D /* Frameworks */,
+				A93C256C1F919C3C0003D73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagneticField;
+			productName = MagneticField;
+			productReference = A93C256E1F919C3C0003D73D /* MagneticField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93C25841F919C3D0003D73D /* MagneticFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93C259C1F919C3D0003D73D /* Build configuration list for PBXNativeTarget "MagneticFieldTests" */;
+			buildPhases = (
+				A93C25811F919C3D0003D73D /* Sources */,
+				A93C25821F919C3D0003D73D /* Frameworks */,
+				A93C25831F919C3D0003D73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93C25871F919C3D0003D73D /* PBXTargetDependency */,
+			);
+			name = MagneticFieldTests;
+			productName = MagneticFieldTests;
+			productReference = A93C25851F919C3D0003D73D /* MagneticFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A93C258F1F919C3D0003D73D /* MagneticFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93C259F1F919C3D0003D73D /* Build configuration list for PBXNativeTarget "MagneticFieldUITests" */;
+			buildPhases = (
+				A93C258C1F919C3D0003D73D /* Sources */,
+				A93C258D1F919C3D0003D73D /* Frameworks */,
+				A93C258E1F919C3D0003D73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93C25921F919C3D0003D73D /* PBXTargetDependency */,
+			);
+			name = MagneticFieldUITests;
+			productName = MagneticFieldUITests;
+			productReference = A93C25901F919C3D0003D73D /* MagneticFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93C25661F919C3C0003D73D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Antonio;
+				TargetAttributes = {
+					A93C256D1F919C3C0003D73D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A93C25841F919C3D0003D73D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A93C256D1F919C3C0003D73D;
+					};
+					A93C258F1F919C3D0003D73D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A93C256D1F919C3C0003D73D;
+					};
+				};
+			};
+			buildConfigurationList = A93C25691F919C3C0003D73D /* Build configuration list for PBXProject "MagneticField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93C25651F919C3C0003D73D;
+			productRefGroup = A93C256F1F919C3C0003D73D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93C256D1F919C3C0003D73D /* MagneticField */,
+				A93C25841F919C3D0003D73D /* MagneticFieldTests */,
+				A93C258F1F919C3D0003D73D /* MagneticFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93C256C1F919C3C0003D73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C257F1F919C3D0003D73D /* LaunchScreen.storyboard in Resources */,
+				A93C257C1F919C3D0003D73D /* Assets.xcassets in Resources */,
+				A93C25771F919C3D0003D73D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C25831F919C3D0003D73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C258E1F919C3D0003D73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93C256A1F919C3C0003D73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C25741F919C3D0003D73D /* ViewController.swift in Sources */,
+				A93C25721F919C3D0003D73D /* AppDelegate.swift in Sources */,
+				A93C257A1F919C3D0003D73D /* MagneticField.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C25811F919C3D0003D73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C258A1F919C3D0003D73D /* MagneticFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C258C1F919C3D0003D73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C25951F919C3D0003D73D /* MagneticFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A93C25871F919C3D0003D73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93C256D1F919C3C0003D73D /* MagneticField */;
+			targetProxy = A93C25861F919C3D0003D73D /* PBXContainerItemProxy */;
+		};
+		A93C25921F919C3D0003D73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93C256D1F919C3C0003D73D /* MagneticField */;
+			targetProxy = A93C25911F919C3D0003D73D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A93C25751F919C3D0003D73D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93C25761F919C3D0003D73D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93C257D1F919C3D0003D73D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93C257E1F919C3D0003D73D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93C25971F919C3D0003D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A93C25981F919C3D0003D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93C259A1F919C3D0003D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				INFOPLIST_FILE = MagneticField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniochan.MagneticField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93C259B1F919C3D0003D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				INFOPLIST_FILE = MagneticField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniochan.MagneticField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A93C259D1F919C3D0003D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				INFOPLIST_FILE = MagneticFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniochan.MagneticFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagneticField.app/MagneticField";
+			};
+			name = Debug;
+		};
+		A93C259E1F919C3D0003D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				INFOPLIST_FILE = MagneticFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniochan.MagneticFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagneticField.app/MagneticField";
+			};
+			name = Release;
+		};
+		A93C25A01F919C3D0003D73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				INFOPLIST_FILE = MagneticFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniochan.MagneticFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagneticField;
+			};
+			name = Debug;
+		};
+		A93C25A11F919C3D0003D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				INFOPLIST_FILE = MagneticFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniochan.MagneticFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagneticField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93C25691F919C3C0003D73D /* Build configuration list for PBXProject "MagneticField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C25971F919C3D0003D73D /* Debug */,
+				A93C25981F919C3D0003D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93C25991F919C3D0003D73D /* Build configuration list for PBXNativeTarget "MagneticField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C259A1F919C3D0003D73D /* Debug */,
+				A93C259B1F919C3D0003D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93C259C1F919C3D0003D73D /* Build configuration list for PBXNativeTarget "MagneticFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C259D1F919C3D0003D73D /* Debug */,
+				A93C259E1F919C3D0003D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93C259F1F919C3D0003D73D /* Build configuration list for PBXNativeTarget "MagneticFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C25A01F919C3D0003D73D /* Debug */,
+				A93C25A11F919C3D0003D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A93C25781F919C3D0003D73D /* MagneticField.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A93C25791F919C3D0003D73D /* MagneticField.xcdatamodel */,
+			);
+			currentVersion = A93C25791F919C3D0003D73D /* MagneticField.xcdatamodel */;
+			path = MagneticField.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A93C25661F919C3C0003D73D /* Project object */;
+}
